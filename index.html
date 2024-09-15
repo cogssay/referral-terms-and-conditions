@@ -11,32 +11,16 @@
             font-family: Arial, sans-serif;
             line-height: 1.6;
         }
-        body {
-            display: flex;
-            flex-direction: column;
-            margin: 0;
-        }
         .container {
-            flex: 1;
             width: 80%;
             margin: auto;
             overflow: hidden;
         }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 20px 0;
+        .copyright {
             text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        header h1 {
-            margin: 0;
-            font-size: 28px;
-            font-weight: 700;
-        }
-        header p {
-            margin: 0;
-            font-size: 16px;
+            font-size: 14px;
+            color: #333;
+            margin: 10px 0;
         }
         table {
             width: 100%;
@@ -68,14 +52,6 @@
             margin-top: 0;
             font-size: 18px;
         }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            width: 100%;
-            margin-top: auto; /* Ensures the footer stays at the bottom */
-        }
         a {
             color: #1E90FF;
             text-decoration: none;
@@ -87,14 +63,9 @@
     </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Cogssay Referral Offer</h1>
-            <p>Earn exciting rewards by referring friends!</p>
-        </div>
-    </header>
-
     <div class="container">
+        <p class="copyright">&copy; 2024 Cogssay LLC. All Rights Reserved.</p>
+
         <section>
             <p class="summary"><strong>Summary:</strong> The table below provides a brief overview of the rewards you can earn by referring new users to Cogssay. For full details and legally binding terms, please read the Terms and Conditions section below.</p>
             <table>
@@ -176,8 +147,6 @@
         </section>
     </div>
 
-    <footer>
-        <p>&copy; 2024 Cogssay LLC. All Rights Reserved.</p>
-    </footer>
+    <p class="copyright">&copy; 2024 Cogssay LLC. All Rights Reserved.</p>
 </body>
 </html>
